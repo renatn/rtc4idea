@@ -1,0 +1,44 @@
+<idea-plugin version="2">
+    <id>rtc4idea</id>
+    <name>IBM Rational Team Concert Integration</name>
+    <version>0.2.106</version>
+    <vendor email="renatn@gmail.com" url="http://renatn.com">Renat Nasyrov</vendor>
+    <category>VCS Integration</category>
+
+    <description><![CDATA[
+      IBM Rational Team Concert Integration for Intellij IDEA.<br>
+      <small>Current support only tasks management</small>
+      ]]></description>
+
+    <change-notes><![CDATA[
+      ChangeLog.<br>
+      <ul>
+      <li>106 Fixed summary</li>
+      <li>105 Support file history</li>
+      <li>100 Initial release</li>
+      </ul>
+      ]]>
+    </change-notes>
+
+    <idea-version since-build="107.105"/>
+
+    <depends optional="true" config-file="tasks.xml">com.intellij.tasks</depends>
+
+    <actions>
+        <!-- Add your actions here -->
+        <group id="RtcGroup" text="RTC" popup="true" class="com.renatn.rtc4idea.vcs.RtcGroup">
+            <reference id="CheckinFiles"/>
+            <reference id="UpdateFiles"/>
+            <reference id="Vcs.ShowTabbedFileHistory"/>
+            <add-to-group group-id="VcsGroup" anchor="last"/>
+            <add-to-group group-id="VcsGroups" anchor="last"/>
+        </group>
+
+    </actions>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <vcs name="RTC" vcsClass="com.renatn.rtc4idea.vcs.RtcVcs"/>
+        <tasks.repositoryType implementation="com.renatn.rtc4idea.tasks.RtcWorkItemRepositoryType"/>
+    </extensions>
+
+</idea-plugin>
