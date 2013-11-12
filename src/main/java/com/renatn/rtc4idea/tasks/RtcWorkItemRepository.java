@@ -124,7 +124,7 @@ public class RtcWorkItemRepository extends BaseRepositoryImpl {
             @NotNull
             @Override
             public String getSummary() {
-                return item.getId() + ": " + item.getSummary();
+                return item.getSummary();
             }
 
             @Nullable
