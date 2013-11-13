@@ -11,13 +11,13 @@ Allow you:
 How to build
 ============
 
-# git clone https://github.com/renatn/rtc4idea.git
-# Go to https://jazz.net/downloads/rational-team-concert/
-# Select your RTC server version
-# Download *Plain Java Client Libraries*
-# Place libraries to *lib* directory
-# Open project in Intellij IDEA
-# Build plugin
+- git clone https://github.com/renatn/rtc4idea.git
+- Go to https://jazz.net/downloads/rational-team-concert/
+- Select your RTC server version
+- Download *Plain Java Client Libraries*
+- Place libraries to *lib* directory
+- Open project in Intellij IDEA
+- Build plugin
 
 To Do
 =====
