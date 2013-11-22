@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="RTC API">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/lib" />
+      <root url="file://$USER_HOME$/var/lib/java/rtc-java/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/lib" />
+      <root url="file://$USER_HOME$/var/lib/java/rtc-java/lib" />
+      <root url="file://$USER_HOME$/var/lib/java/rtc-java/lib" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/lib" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/var/lib/java/rtc-java/lib" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$USER_HOME$/var/lib/java/rtc-java/lib" recursive="false" type="SOURCES" />
+  </library>
+</component>
