@@ -11,6 +11,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="RTC API" level="project" />
+    <orderEntry type="library" name="Tasks API" level="project" />
   </component>
 </module>
 

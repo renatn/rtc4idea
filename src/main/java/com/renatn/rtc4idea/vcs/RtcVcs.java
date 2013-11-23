@@ -8,6 +8,7 @@ import com.intellij.openapi.vcs.history.VcsHistoryProvider;
 import com.intellij.openapi.vcs.versionBrowser.CommittedChangeList;
 import com.intellij.openapi.vfs.VirtualFile;
 import com.intellij.vcsUtil.VcsUtil;
+import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 /**
@@ -22,13 +23,14 @@ public class RtcVcs extends AbstractVcs<CommittedChangeList> {
     private Project project;
 
     // private RtcChangeProvider changeProvider;
-    private RtcHistoryProvider historyProvider;
+    private RtcHistoryProvider myHistoryProvider;
+    private Configurable myConfigurable;
 
-    public RtcVcs(Project project) {
+    public RtcVcs(Project project, @NotNull RtcProjectSettings projectSettings) {
         super(project, VCS_NAME);
         this.project = project;
-        historyProvider = new RtcHistoryProvider(project);
-
+        myHistoryProvider = new RtcHistoryProvider(project);
+        myConfigurable = new RtcVcsConfigurable(projectSettings);
     }
 
     @Override
@@ -39,7 +41,7 @@ public class RtcVcs extends AbstractVcs<CommittedChangeList> {
     @Nullable
     @Override
     public VcsHistoryProvider getVcsHistoryProvider() {
-        return historyProvider;
+        return myHistoryProvider;
     }
 
     @Override
@@ -64,7 +66,7 @@ public class RtcVcs extends AbstractVcs<CommittedChangeList> {
 
     @Override
     public Configurable getConfigurable() {
-        return null;
+        return myConfigurable;
     }
 
     @Nullable
@@ -73,4 +75,9 @@ public class RtcVcs extends AbstractVcs<CommittedChangeList> {
         return super.getChangeProvider();
     }
 
+    @Nullable
+    @Override
+    public RootsConvertor getCustomConvertor() {
+        return RtcRootsHandler.getInstance(myProject);
+    }
 }

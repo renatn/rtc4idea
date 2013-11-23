@@ -1,15 +1,18 @@
 <component name="libraryTable">
   <library name="RTC API">
     <CLASSES>
-      <root url="jar://$APPLICATION_HOME_DIR$/plugins/tasks/lib/tasks-api.jar!/" />
+      <root url="file://$PROJECT_DIR$/lib" />
       <root url="file://$USER_HOME$/lib/java/rtc-4.0.2" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
+      <root url="file://$PROJECT_DIR$/lib" />
       <root url="file://$USER_HOME$/lib/java/rtc-4.0.2" />
       <root url="file://$USER_HOME$/lib/java/rtc-4.0.2" />
     </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/lib" recursive="false" />
     <jarDirectory url="file://$USER_HOME$/lib/java/rtc-4.0.2" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib" recursive="false" type="SOURCES" />
     <jarDirectory url="file://$USER_HOME$/lib/java/rtc-4.0.2" recursive="false" type="SOURCES" />
   </library>
 </component>

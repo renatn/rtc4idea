@@ -13,6 +13,7 @@
     <change-notes><![CDATA[
       ChangeLog.<br>
       <ul>
+      <li>107 VCS Settings</li>
       <li>106 Fixed summary</li>
       <li>105 Support file history</li>
       <li>100 Initial release</li>
@@ -39,6 +40,12 @@
     <extensions defaultExtensionNs="com.intellij">
         <vcs name="RTC" vcsClass="com.renatn.rtc4idea.vcs.RtcVcs"/>
         <tasks.repositoryType implementation="com.renatn.rtc4idea.tasks.RtcWorkItemRepositoryType"/>
+
+        <projectService serviceInterface="com.renatn.rtc4idea.vcs.RtcProjectSettings"
+                        serviceImplementation="com.renatn.rtc4idea.vcs.RtcProjectSettings"/>
+        <projectService serviceInterface="com.renatn.rtc4idea.vcs.RtcRootsHandler"
+                        serviceImplementation="com.renatn.rtc4idea.vcs.RtcRootsHandler" />
+
     </extensions>
 
 </idea-plugin>
