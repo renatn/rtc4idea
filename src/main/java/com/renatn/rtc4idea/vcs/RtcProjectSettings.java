@@ -36,7 +36,7 @@ public class RtcProjectSettings implements PersistentStateComponent<Element> {
     }
 
     public String getLogin() {
-        return myLogin != null ? myLogin : "sbt-nasyrov-rv";
+        return myLogin != null ? myLogin : "";
     }
 
     public void setLogin(String login) {
@@ -44,7 +44,7 @@ public class RtcProjectSettings implements PersistentStateComponent<Element> {
     }
 
     public String getHost() {
-        return myHost != null ? myHost : "https://hs22-33.ca.sbrf.ru:9443/jazz";
+        return myHost != null ? myHost : "";
     }
 
     public void setHost(String host) {
