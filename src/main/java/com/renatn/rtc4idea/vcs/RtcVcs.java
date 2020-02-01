@@ -16,7 +16,7 @@ import org.jetbrains.annotations.Nullable;
  * Date: 15.10.13
  * Time: 11:36
  */
-public class RtcVcs extends AbstractVcs<CommittedChangeList> {
+public class RtcVcs extends AbstractVcs { //<CommittedChangeList>
 
     public static final String VCS_NAME = "RTC";
 

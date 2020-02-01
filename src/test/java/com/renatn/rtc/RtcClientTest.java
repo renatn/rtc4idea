@@ -1,6 +1,9 @@
 package com.renatn.rtc;
 
-import com.renatn.rtc4idea.*;
+import com.renatn.rtc4idea.RtcClientFactory;
+import com.renatn.rtc4idea.RtcConnection;
+import com.renatn.rtc4idea.RtcScmClient;
+import com.renatn.rtc4idea.RtcTaskClient;
 import com.renatn.rtc4idea.tasks.RtcItem;
 import com.renatn.rtc4idea.vcs.RtcFileRevision;
 import com.renatn.rtc4idea.vcs.RtcSettings;
