@@ -7,7 +7,9 @@ import com.intellij.util.Consumer;
 import com.intellij.util.ui.FormBuilder;
 import org.jetbrains.annotations.Nullable;
 
-import javax.swing.*;
+import javax.swing.JComponent;
+import javax.swing.JTextField;
+import javax.swing.SwingConstants;
 
 /**
  * User: Renat Nasyrov (renat@gmail.com)

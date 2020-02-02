@@ -8,7 +8,7 @@ import com.intellij.tasks.impl.BaseRepositoryType;
 import com.intellij.util.Consumer;
 import org.jetbrains.annotations.NotNull;
 
-import javax.swing.*;
+import javax.swing.Icon;
 
 /**
  * User: Renat Nasyrov <renatn@gmail.com>

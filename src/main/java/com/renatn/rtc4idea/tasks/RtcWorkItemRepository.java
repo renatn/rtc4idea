@@ -15,7 +15,7 @@ import com.renatn.rtc4idea.RtcProgressMonitor;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
-import javax.swing.*;
+import javax.swing.Icon;
 import java.util.Date;
 import java.util.List;
 

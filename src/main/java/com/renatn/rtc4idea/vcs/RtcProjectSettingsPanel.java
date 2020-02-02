@@ -1,6 +1,8 @@
 package com.renatn.rtc4idea.vcs;
 
-import javax.swing.*;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
 
 /**
  * User: Renat Nasyrov (renat@gmail.com)
