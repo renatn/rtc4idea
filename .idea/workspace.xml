@@ -1,34 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da39424a-98df-4511-b96a-b31babf122dd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_core_org_eclipse_core_contenttype_3_4_100.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_core_org_eclipse_core_jobs_3_5_100.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_core_org_eclipse_core_runtime_3_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_equinox_org_eclipse_equinox_app_1_3_100.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_equinox_org_eclipse_equinox_common_3_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_equinox_org_eclipse_equinox_preferences_3_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_equinox_org_eclipse_equinox_registry_3_5_101.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_osgi_org_eclipse_osgi_3_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jdom_jdom_legacy_1_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/RTC_API.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Tasks_API.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="da39424a-98df-4511-b96a-b31babf122dd" name="Default" comment="converted into a maven project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rtc4idea.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rtc4idea.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/renatn/rtc4idea/RtcTaskClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/renatn/rtc4idea/RtcTaskClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/renatn/rtc4idea/tasks/RtcRepositoryEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/renatn/rtc4idea/tasks/RtcRepositoryEditor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/renatn/rtc4idea/tasks/RtcWorkItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/renatn/rtc4idea/tasks/RtcWorkItemRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/renatn/rtc4idea/tasks/RtcWorkItemRepositoryType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/renatn/rtc4idea/tasks/RtcWorkItemRepositoryType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/renatn/rtc4idea/vcs/RtcHistoryProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/renatn/rtc4idea/vcs/RtcHistoryProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/renatn/rtc4idea/vcs/RtcProjectSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/renatn/rtc4idea/vcs/RtcProjectSettings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/renatn/rtc4idea/vcs/RtcProjectSettingsPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/renatn/rtc4idea/vcs/RtcProjectSettingsPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/renatn/rtc4idea/vcs/RtcVcs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/renatn/rtc4idea/vcs/RtcVcs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/renatn/rtc4idea/vcs/RtcVcsConfigurable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/renatn/rtc4idea/vcs/RtcVcsConfigurable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/renatn/rtc/RtcClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/renatn/rtc/RtcClientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +141,6 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
-    <property name="restartRequiresConfirmation" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
@@ -263,6 +238,7 @@
       <module name="rtc4idea" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" value="" />
+      <alternative-path path="IntelliJ IDEA IU-193.5662.53" alternative-path-enabled="true" />
       <log_file checked="false" alias="IDEA LOG" path="$USER_HOME$/.IdeaIC12/system/plugins-sandbox/system/log/idea.log" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="" />
@@ -312,8 +288,23 @@
       <updated>1381498124369</updated>
       <workItem from="1580576783274" duration="709000" />
       <workItem from="1580577519517" duration="6000000" />
-      <workItem from="1580583544320" duration="343000" />
+      <workItem from="1580583544320" duration="1774000" />
     </task>
+    <task id="LOCAL-00001" summary="replaced asterisk import for single class imports">
+      <created>1580583983661</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580583983661</updated>
+    </task>
+    <task id="LOCAL-00002" summary="converted into a maven project">
+      <created>1580584108049</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580584108049</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,24 +314,31 @@
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <MESSAGE value="replaced asterisk import for single class imports" />
+    <MESSAGE value="converted into a maven project" />
+    <option name="LAST_COMMIT_MESSAGE" value="converted into a maven project" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="3" key="#Project_Structure" timestamp="1580583565516">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="3" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1580583565516" />
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580583151448">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580604735130">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1580583151448" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1580604735130" />
     <state x="412" y="190" key="#com.intellij.tools.ToolEditorDialog" timestamp="1580583143962">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="412" y="190" key="#com.intellij.tools.ToolEditorDialog/0.0.1280.680@0.0.1280.680" timestamp="1580583143962" />
-    <state x="287" y="0" key="CommitChangelistDialog2" timestamp="1580583982624">
+    <state x="287" y="0" key="CommitChangelistDialog2" timestamp="1580604866138">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="287" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1580583982624" />
+    <state x="287" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1580604866138" />
+    <state x="122" y="56" key="DiffContextDialog" timestamp="1580584067461">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="122" y="56" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1580584067461" />
     <state x="421" y="54" key="FileChooserDialogImpl" timestamp="1580583520524">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -381,6 +379,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="144" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1580583823215" />
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1580584111177">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1580584111177" />
     <state x="349" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1580583545325">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
