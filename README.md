@@ -27,6 +27,13 @@ How to build
     
     ![install option](imgs/mvn%20install.PNG)
 
+How to Use
+====
+
+* Open your project
+* Go to settings and place your credentials
+![introduce credentials](imgs/enter%20credentials.PNG)
+
 To Do
 =====
 

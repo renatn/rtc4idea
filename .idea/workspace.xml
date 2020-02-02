@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da39424a-98df-4511-b96a-b31babf122dd" name="Default" comment="converted into a maven project">
+    <list default="true" id="da39424a-98df-4511-b96a-b31babf122dd" name="Default" comment="added details for building the pligin as maven project from IDEA">
+      <change afterPath="$PROJECT_DIR$/imgs/enter credentials.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/mvn install.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,11 +138,11 @@
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="vcs.RTC" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -288,7 +289,7 @@
       <updated>1381498124369</updated>
       <workItem from="1580576783274" duration="709000" />
       <workItem from="1580577519517" duration="6000000" />
-      <workItem from="1580583544320" duration="1774000" />
+      <workItem from="1580583544320" duration="3608000" />
     </task>
     <task id="LOCAL-00001" summary="replaced asterisk import for single class imports">
       <created>1580583983661</created>
@@ -304,11 +305,29 @@
       <option name="project" value="LOCAL" />
       <updated>1580584108049</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added details for building the pligin as maven project from IDEA">
+      <created>1580605605853</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580605605853</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
@@ -316,13 +335,14 @@
     <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
     <MESSAGE value="replaced asterisk import for single class imports" />
     <MESSAGE value="converted into a maven project" />
-    <option name="LAST_COMMIT_MESSAGE" value="converted into a maven project" />
+    <MESSAGE value="added details for building the pligin as maven project from IDEA" />
+    <option name="LAST_COMMIT_MESSAGE" value="added details for building the pligin as maven project from IDEA" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="233" y="3" key="#Project_Structure" timestamp="1580583565516">
+    <state x="233" y="3" key="#Project_Structure" timestamp="1580611651641">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="3" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1580583565516" />
+    <state x="233" y="3" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1580611651641" />
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580604735130">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -331,10 +351,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="412" y="190" key="#com.intellij.tools.ToolEditorDialog/0.0.1280.680@0.0.1280.680" timestamp="1580583143962" />
-    <state x="287" y="0" key="CommitChangelistDialog2" timestamp="1580604866138">
+    <state x="287" y="0" key="CommitChangelistDialog2" timestamp="1580605605245">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="287" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1580604866138" />
+    <state x="287" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1580605605245" />
     <state x="122" y="56" key="DiffContextDialog" timestamp="1580584067461">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -375,14 +395,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="229" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1580583267876" />
-    <state x="144" y="0" key="SettingsEditor" timestamp="1580583823215">
+    <state x="144" y="0" key="SettingsEditor" timestamp="1580611636167">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="144" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1580583823215" />
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1580584111177">
+    <state x="144" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1580611636167" />
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1580605608079">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1580584111177" />
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1580605608079" />
     <state x="349" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1580583545325">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
